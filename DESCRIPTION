@@ -1,6 +1,6 @@
 Package: vdummy
 Title: vdummy
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: 
     c(person(
         "Vincent", "Carey", role = c("aut", "cre"),
