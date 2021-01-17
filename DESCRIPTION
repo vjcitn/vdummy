@@ -1,0 +1,27 @@
+Package: vdummy
+Title: vdummy
+Version: 0.1.1
+Authors@R: 
+    c(person(
+        "Vincent", "Carey", role = c("aut", "cre"),
+        email = "stvjc@channing.harvard.edu"
+     )
+    )
+Description: vdummy
+License: Artistic-2.0
+Encoding: UTF-8
+Depends: R (>= 3.6), dplyr
+Imports:
+    methods,
+    tibble,
+    BiocManager,
+    R.utils,
+    tools,
+    utils,
+    usethis,
+    tic
+Suggests: knitr, testthat, covr
+LazyData: true
+VignetteBuilder: knitr
+biocViews: Infrastructure
+RoxygenNote: 7.1.1
