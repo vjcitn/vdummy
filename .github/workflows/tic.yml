@@ -114,7 +114,7 @@ jobs:
         run: Rscript -e "tic::after_success()"
 
       - name: "[Stage] Upload R CMD check artifacts"
-        if: failure()
+#        if: failure()
         uses: actions/upload-artifact@v2.2.1
         with:
           name: ${{ runner.os }}-r${{ matrix.config.r }}-results
